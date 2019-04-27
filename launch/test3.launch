@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<launch>
+
+ 
+
+  <node pkg="turtlesim" type="turtlesim_node" name="turtlesim" output="screen" />
+
+  <node pkg="ros_test" type="ros_test3_node" name="turtle_controll" output="screen" >
+  
+
+  </node>
+
+</launch>

@@ -174,6 +174,19 @@ target_link_libraries( infinity_node  ${catkin_LIBRARIES} )
 
 
 
+
+add_executable(ros_test3_node src/ros_test3.cpp)
+
+
+
+target_link_libraries(ros_test3_node ${catkin_LIBRARIES})
+
+
+add_dependencies(ros_test3_node beginner_tutorials_gen_cpp)
+
+
+
+
 #############
 ## Install ##
 #############
